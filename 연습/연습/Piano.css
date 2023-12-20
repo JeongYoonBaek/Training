@@ -1,0 +1,64 @@
+/* transition :: "전환"과 관련한 스타일 부여 (애니메이션과 연결이 됨) */
+div{
+    text-align : center;
+    margin : auto;
+}
+
+p{
+    border: 3px solid black;
+    display : inline-block;
+    /* 5px은 상하로, 25px은 좌우로 */
+    padding : 5px 25px; /* 가로패딩, 세로패딩*/
+    height : 200px;
+    background-color: white;
+    transition: all 2s; /* 전환과 관련한 모든 진행 시간을 2초로 지정한다 */
+    transition-timing-function : ease-in-out; /*전환 형식 :: 디폴트는 linear (일정한 속도로 변한다) */
+    transition-delay : 1s; /* 1초 정도 가만히 있다가 전환을 수행한다. */
+}
+
+hr{
+    width : 70%
+}
+
+/*반응 선택자 :: 
+    "active(마우스를 눌렀을 때 스타일 적용)" 
+    "hover(커서를 갖다 댔을 때 스타일 적용)"
+    [선택자]:hover/active {
+        선언문들
+    }
+*/
+
+#do:hover{
+    background-color: red;
+}
+
+#re:hover{
+    background-color: orange;
+}
+
+#mi:hover{
+    background-color: yellow;
+}
+
+#fa:hover{
+    background-color: green;
+}
+
+#sol:hover{
+    background-color: blue;
+}
+
+#la:hover{
+    background-color: navy;
+}
+
+#si:hover{
+    background-color: purple;
+}
+
+p:active{
+    color : white;
+    height : 250px;
+    font-size : larger;
+}
+

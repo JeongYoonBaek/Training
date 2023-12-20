@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dongwh</title>
+    <style>
+        /* 동위 연산자 :: +, ~ */
+        /* [선택자1] + [선택자2] :: [선택자1] 바로 뒤에 위치하는 [선택자2] 선택(시스템 상 반드시 하나만 선택될 수 밖에 없음) 
+            [선택자1] ~ [선택자2] :: [선택자1] 뒤에 위치하는 [선택자2] 선택 (복수로 선택이 될 수 있음)
+        */
+        h1+p{
+            color : royalblue;
+        }
+        h1~p{
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>헤더</h1>   <!-- 기준이 되는 잣대이기 때문에 스타일 적용이 안됨 -->
+    <p>p태그 1</p>
+    <p>p태그 2</p>
+    <p>p태그 3</p>
+</body>
+</html>
