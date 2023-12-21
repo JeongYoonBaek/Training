@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+</head>
+<body>
+    <!-- form 태그 :: 입력 양식 선언하는 태그 -->
+    <form>
+        <!-- 웬만해서 여기 안에 입력 태그들을 나열한다. -->
+        <!-- input 태그 :: 대표적인 html 입력 태그 -->
+        <!-- label 태그 :: 입력값에 대한 설명 추가 (+입력값을 포커싱)-->
+        <!-- placeholder :: 사용자에게 미리 안내하는 문구이고 입력 시 문구가 사라짐-->
+        <input type = "text" placeholder = "내용을 입력하세요.">   <!-- input 태그의 디폴트 타입 --> 
+        <br>
+        <input type = "number">     
+        <br>
+        <!-- radio와 checkbox 차이 :: 단일 선택 / 중복 선택 -->
+
+        성별
+        <!-- name 속성 :: 카테고리 정의하는 속성이고 선언해야 단일 선택이 가능함, value 속성 :: 실질적인 입력값 -->
+        <!-- id는 식별자이기 때문에 중복되면 안된다. -->
+        <input type = "radio" id ="male" name = "gender" value = "male">
+        <label for ="male">남성</label>
+        <input type = "radio" id = "female" name = "gender" value = "female">  
+        <label for ="female">여성</label>
+        <br>
+        좋아하는 과일
+        <input type = "checkbox" id = "apple" name = "fruit" value = "apple">
+        <label for = "apple">사과</label> 
+        <input type = "checkbox" id = "orange" name = "fruit" value = "orange">  
+        <label for = "orange">오렌지</label> 
+        <input type = "checkbox" id = "pear" name = "fruit" value = "pear">   
+        <label for = "pear">배</label>
+        <br>
+        <br>
+        <input type = "date">   
+        <br>
+        <br>
+
+        <!-- textarea 태그 :: 여러 줄 입력 가능 -->
+        <textarea col = "20" row = "10">
+            내용을 입력하세요.
+        </textarea>
+        <br>
+        <!-- select 태그 :: 선택 양식 선언 -->
+        <!-- option 태그를 추가하여 선택지를 추가한다. -->
+        <!-- optgroup 태그 :: 옵션 그룹화하는 태그 (스타일 구려서 사용 잘 안함)-->
+        전화번호
+        <select>
+            <option>010</option>
+            <option>011</option>
+            <option>012</option>
+            <option>017</option>
+            <option>018</option>
+        </select>
+        -
+        <input type = "text" id = "second_telnum" style = "width:50px">
+        -
+        <input type = "text" id = "final_telnum" style = "width:50px">
+    </form>
+
+    <!-- display 속성 :: block, inline, inline-block -->
+    <!-- div 태그 :: 디폴트로 block 속성인 공간 분할 -->
+    <!-- span 태그 :: 디폴트로 inline 속성인 공간 분할 -->
+
+    <div style = "border:3px solid darkmagenta">
+        div 태그
+    </div>
+        <span style = "border : 3px solid royalblue">
+            span 태그
+        </span>
+   
+</body>
+</html>
