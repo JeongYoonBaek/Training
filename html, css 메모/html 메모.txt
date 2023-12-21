@@ -54,8 +54,9 @@ video 태그 :: 비디오 또는 영상 삽입
 
 공간 분할 태그
 display 속성 :: block, inline, inline-block
+block :: 한 줄 전체를 차지하고, 상하로는 필요한 공간만 차지하며 조절이 가능함
 inline :: 상하좌우 모두 필요한 만큼만 공간 차지
-inline-block :: 상하좌우 필요한 만큼만 공간 차지, 상하좌우 크기 조정이 됨
+inline-block :: 상하좌우 필요한 만큼만 공간 차지, 상하좌우 크기 조정이 됨 
 div 태그 :: display 값 디폴트가 block 속성의 공간 분할 태그
 span 태그 :: display 값 디폴트가 inline 속성의 공간 분할 태그
 
@@ -78,11 +79,6 @@ padding : 도형 안 범위
 여기 안에 여러가지 입력칸들을 넣음
 input 태그 :: type 속성값에 따라, 입력 형태들이 달라짐
 type 디폴트값은 text 
-
-
-block :: 한 줄 전체를 차지하고, 상하로는 필요한 공간만 차지하며 조절이 가능함
-inline :: 상하좌우 모두 필요한 만큼만 공간 차지
-inline-block :: 상하좌우 필요한 만큼만 공간 차지, 상하좌우 크기 조정이 됨 
 
 
 <header>, <nav>, <aside>, <section>, <article>, <footer> 네이버 등 보기
