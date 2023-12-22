@@ -1,0 +1,2 @@
+﻿main.obj : error LNK2019: search_menumain 함수에서 참조되는 확인할 수 없는 외부 기호
+D:\work_c\230905_addr_s\x64\Debug\230905_addr_s.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
