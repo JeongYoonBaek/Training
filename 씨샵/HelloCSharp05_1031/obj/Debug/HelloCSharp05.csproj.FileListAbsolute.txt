@@ -1,0 +1,10 @@
+D:\C# 파일\HelloCSharp05\HelloCSharp05\bin\Debug\HelloCSharp05.exe.config
+D:\C# 파일\HelloCSharp05\HelloCSharp05\bin\Debug\HelloCSharp05.exe
+D:\C# 파일\HelloCSharp05\HelloCSharp05\bin\Debug\HelloCSharp05.pdb
+D:\C# 파일\HelloCSharp05\HelloCSharp05\obj\Debug\HelloCSharp05.csproj.AssemblyReference.cache
+D:\C# 파일\HelloCSharp05\HelloCSharp05\obj\Debug\HelloCSharp05.Form1.resources
+D:\C# 파일\HelloCSharp05\HelloCSharp05\obj\Debug\HelloCSharp05.Properties.Resources.resources
+D:\C# 파일\HelloCSharp05\HelloCSharp05\obj\Debug\HelloCSharp05.csproj.GenerateResource.cache
+D:\C# 파일\HelloCSharp05\HelloCSharp05\obj\Debug\HelloCSharp05.csproj.CoreCompileInputs.cache
+D:\C# 파일\HelloCSharp05\HelloCSharp05\obj\Debug\HelloCSharp05.exe
+D:\C# 파일\HelloCSharp05\HelloCSharp05\obj\Debug\HelloCSharp05.pdb
