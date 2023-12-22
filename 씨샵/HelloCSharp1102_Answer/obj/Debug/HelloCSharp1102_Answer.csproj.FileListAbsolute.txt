@@ -1,0 +1,11 @@
+D:\C# 파일\HelloCSharp1102_Answer\HelloCSharp1102_Answer\obj\Debug\HelloCSharp1102_Answer.csproj.AssemblyReference.cache
+D:\C# 파일\HelloCSharp1102_Answer\HelloCSharp1102_Answer\obj\Debug\HelloCSharp1102_Answer.Form1.resources
+D:\C# 파일\HelloCSharp1102_Answer\HelloCSharp1102_Answer\obj\Debug\HelloCSharp1102_Answer.Properties.Resources.resources
+D:\C# 파일\HelloCSharp1102_Answer\HelloCSharp1102_Answer\obj\Debug\HelloCSharp1102_Answer.csproj.GenerateResource.cache
+D:\C# 파일\HelloCSharp1102_Answer\HelloCSharp1102_Answer\obj\Debug\HelloCSharp1102_Answer.csproj.CoreCompileInputs.cache
+D:\C# 파일\HelloCSharp1102_Answer\HelloCSharp1102_Answer\bin\Debug\HelloCSharp1102_Answer.exe.config
+D:\C# 파일\HelloCSharp1102_Answer\HelloCSharp1102_Answer\bin\Debug\HelloCSharp1102_Answer.exe
+D:\C# 파일\HelloCSharp1102_Answer\HelloCSharp1102_Answer\bin\Debug\HelloCSharp1102_Answer.pdb
+D:\C# 파일\HelloCSharp1102_Answer\HelloCSharp1102_Answer\obj\Debug\HelloCSharp1102_Answer.exe
+D:\C# 파일\HelloCSharp1102_Answer\HelloCSharp1102_Answer\obj\Debug\HelloCSharp1102_Answer.pdb
+D:\C# 파일\HelloCSharp1102_Answer\HelloCSharp1102_Answer\obj\Debug\HelloCSharp1102_Answer.Form2.resources
