@@ -1,0 +1,10 @@
+D:\C# 파일\HelloCSharp1030_02\HelloCSharp1030_chap5_class\bin\Debug\HelloCSharp1030_chap5_class.exe.config
+D:\C# 파일\HelloCSharp1030_02\HelloCSharp1030_chap5_class\bin\Debug\HelloCSharp1030_chap5_class.exe
+D:\C# 파일\HelloCSharp1030_02\HelloCSharp1030_chap5_class\bin\Debug\HelloCSharp1030_chap5_class.pdb
+D:\C# 파일\HelloCSharp1030_02\HelloCSharp1030_chap5_class\obj\Debug\HelloCSharp1030_chap5_class.csproj.AssemblyReference.cache
+D:\C# 파일\HelloCSharp1030_02\HelloCSharp1030_chap5_class\obj\Debug\HelloCSharp1030_chap5_class.Form1.resources
+D:\C# 파일\HelloCSharp1030_02\HelloCSharp1030_chap5_class\obj\Debug\HelloCSharp1030_chap5_class.Properties.Resources.resources
+D:\C# 파일\HelloCSharp1030_02\HelloCSharp1030_chap5_class\obj\Debug\HelloCSharp1030_chap5_class.csproj.GenerateResource.cache
+D:\C# 파일\HelloCSharp1030_02\HelloCSharp1030_chap5_class\obj\Debug\HelloCSharp1030_chap5_class.csproj.CoreCompileInputs.cache
+D:\C# 파일\HelloCSharp1030_02\HelloCSharp1030_chap5_class\obj\Debug\HelloCSharp1030_chap5_class.exe
+D:\C# 파일\HelloCSharp1030_02\HelloCSharp1030_chap5_class\obj\Debug\HelloCSharp1030_chap5_class.pdb
