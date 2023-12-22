@@ -1,0 +1,26 @@
+D:\work\AI11_lecture\CSharp\HeyGoodBye\HeyKaKaoAPIMap\bin\Debug\HeyKaKaoAPIMap.exe.config
+D:\work\AI11_lecture\CSharp\HeyGoodBye\HeyKaKaoAPIMap\bin\Debug\HeyKaKaoAPIMap.exe
+D:\work\AI11_lecture\CSharp\HeyGoodBye\HeyKaKaoAPIMap\bin\Debug\HeyKaKaoAPIMap.pdb
+D:\work\AI11_lecture\CSharp\HeyGoodBye\HeyKaKaoAPIMap\bin\Debug\Newtonsoft.Json.dll
+D:\work\AI11_lecture\CSharp\HeyGoodBye\HeyKaKaoAPIMap\bin\Debug\Newtonsoft.Json.xml
+D:\work\AI11_lecture\CSharp\HeyGoodBye\HeyKaKaoAPIMap\obj\Debug\HeyKaKaoAPIMap.csproj.AssemblyReference.cache
+D:\work\AI11_lecture\CSharp\HeyGoodBye\HeyKaKaoAPIMap\obj\Debug\HeyKaKaoAPIMap.Form1.resources
+D:\work\AI11_lecture\CSharp\HeyGoodBye\HeyKaKaoAPIMap\obj\Debug\HeyKaKaoAPIMap.Properties.Resources.resources
+D:\work\AI11_lecture\CSharp\HeyGoodBye\HeyKaKaoAPIMap\obj\Debug\HeyKaKaoAPIMap.csproj.GenerateResource.cache
+D:\work\AI11_lecture\CSharp\HeyGoodBye\HeyKaKaoAPIMap\obj\Debug\HeyKaKaoAPIMap.csproj.CoreCompileInputs.cache
+D:\work\AI11_lecture\CSharp\HeyGoodBye\HeyKaKaoAPIMap\obj\Debug\HeyKaKaoAPIMap.csproj.CopyComplete
+D:\work\AI11_lecture\CSharp\HeyGoodBye\HeyKaKaoAPIMap\obj\Debug\HeyKaKaoAPIMap.exe
+D:\work\AI11_lecture\CSharp\HeyGoodBye\HeyKaKaoAPIMap\obj\Debug\HeyKaKaoAPIMap.pdb
+D:\C# 파일\HeyGoodBye\HeyKaKaoAPIMap\bin\Debug\HeyKaKaoAPIMap.exe.config
+D:\C# 파일\HeyGoodBye\HeyKaKaoAPIMap\bin\Debug\HeyKaKaoAPIMap.exe
+D:\C# 파일\HeyGoodBye\HeyKaKaoAPIMap\bin\Debug\HeyKaKaoAPIMap.pdb
+D:\C# 파일\HeyGoodBye\HeyKaKaoAPIMap\bin\Debug\Newtonsoft.Json.dll
+D:\C# 파일\HeyGoodBye\HeyKaKaoAPIMap\bin\Debug\Newtonsoft.Json.xml
+D:\C# 파일\HeyGoodBye\HeyKaKaoAPIMap\obj\Debug\HeyKaKaoAPIMap.csproj.AssemblyReference.cache
+D:\C# 파일\HeyGoodBye\HeyKaKaoAPIMap\obj\Debug\HeyKaKaoAPIMap.Form1.resources
+D:\C# 파일\HeyGoodBye\HeyKaKaoAPIMap\obj\Debug\HeyKaKaoAPIMap.Properties.Resources.resources
+D:\C# 파일\HeyGoodBye\HeyKaKaoAPIMap\obj\Debug\HeyKaKaoAPIMap.csproj.GenerateResource.cache
+D:\C# 파일\HeyGoodBye\HeyKaKaoAPIMap\obj\Debug\HeyKaKaoAPIMap.csproj.CoreCompileInputs.cache
+D:\C# 파일\HeyGoodBye\HeyKaKaoAPIMap\obj\Debug\HeyKaKaoAPIMap.csproj.CopyComplete
+D:\C# 파일\HeyGoodBye\HeyKaKaoAPIMap\obj\Debug\HeyKaKaoAPIMap.exe
+D:\C# 파일\HeyGoodBye\HeyKaKaoAPIMap\obj\Debug\HeyKaKaoAPIMap.pdb

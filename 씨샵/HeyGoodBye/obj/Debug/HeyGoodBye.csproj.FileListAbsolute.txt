@@ -1,0 +1,11 @@
+D:\work\AI11_lecture\CSharp\HeyGoodBye\HeyGoodBye\bin\Debug\HeyGoodBye.exe.config
+D:\work\AI11_lecture\CSharp\HeyGoodBye\HeyGoodBye\bin\Debug\HeyGoodBye.exe
+D:\work\AI11_lecture\CSharp\HeyGoodBye\HeyGoodBye\bin\Debug\HeyGoodBye.pdb
+D:\work\AI11_lecture\CSharp\HeyGoodBye\HeyGoodBye\obj\Debug\HeyGoodBye.csproj.AssemblyReference.cache
+D:\work\AI11_lecture\CSharp\HeyGoodBye\HeyGoodBye\obj\Debug\HeyGoodBye.Form1.resources
+D:\work\AI11_lecture\CSharp\HeyGoodBye\HeyGoodBye\obj\Debug\HeyGoodBye.Properties.Resources.resources
+D:\work\AI11_lecture\CSharp\HeyGoodBye\HeyGoodBye\obj\Debug\HeyGoodBye.csproj.GenerateResource.cache
+D:\work\AI11_lecture\CSharp\HeyGoodBye\HeyGoodBye\obj\Debug\HeyGoodBye.csproj.CoreCompileInputs.cache
+D:\work\AI11_lecture\CSharp\HeyGoodBye\HeyGoodBye\obj\Debug\HeyGoodBye.exe
+D:\work\AI11_lecture\CSharp\HeyGoodBye\HeyGoodBye\obj\Debug\HeyGoodBye.pdb
+D:\work\AI11_lecture\CSharp\HeyGoodBye\HeyGoodBye\obj\Debug\HeyGoodBye.Form2.resources
