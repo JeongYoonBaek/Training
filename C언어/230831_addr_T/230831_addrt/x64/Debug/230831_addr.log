@@ -1,0 +1,42 @@
+﻿  main2.c
+D:\work_c\230831_addr_T\230831_addr\main2.c(70,60): warning C4031: 둘째 정식 매개 변수 목록이 첫째 목록보다 깁니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(76,8): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(118,4): warning C4013: 'gets'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(170,20): warning C4047: '함수': 'char'의 간접 참조 수준이 'char [12]'과(와) 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(170,16): warning C4024: 'file_update': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(347,23): warning C4028: 정식 매개 변수 1이(가) 선언과 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(355,27): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'char'과(와) 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(355,19): warning C4024: 'fopen': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(368,47): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'char'과(와) 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(368,35): warning C4024: 'strcpy': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(369,47): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'char'과(와) 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(369,35): warning C4024: 'strcpy': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(370,45): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'char'과(와) 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(370,33): warning C4024: 'strcpy': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(371,49): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'char'과(와) 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(371,37): warning C4024: 'strcpy': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(383,28): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'char'과(와) 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(383,20): warning C4024: 'fopen': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(388,30): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'char (*)[20]'과(와) 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(388,14): warning C4024: 'strcmp': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(402,27): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'char'과(와) 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(402,19): warning C4024: 'fopen': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(416,45): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'char'과(와) 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(416,33): warning C4024: 'strcpy': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(417,45): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'char'과(와) 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(417,33): warning C4024: 'strcpy': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(418,43): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'char'과(와) 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(418,31): warning C4024: 'strcpy': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(419,47): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'char'과(와) 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(419,35): warning C4024: 'strcpy': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(430,29): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'char'과(와) 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(430,21): warning C4024: 'fopen': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(444,47): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'char'과(와) 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(444,35): warning C4024: 'strcpy': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(445,47): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'char'과(와) 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(445,35): warning C4024: 'strcpy': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(446,45): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'char'과(와) 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(446,33): warning C4024: 'strcpy': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(447,49): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'char'과(와) 다릅니다.
+D:\work_c\230831_addr_T\230831_addr\main2.c(447,37): warning C4024: 'strcpy': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+  230831_addr.vcxproj -> D:\work_c\230831_addr_T\x64\Debug\230831_addr.exe
