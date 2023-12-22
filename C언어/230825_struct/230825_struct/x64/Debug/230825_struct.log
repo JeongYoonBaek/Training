@@ -1,0 +1,12 @@
+﻿  exma5.c
+D:\work_c\230825_struct\230825_struct\exma5.c(47,8): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\work_c\230825_struct\230825_struct\exma5.c(93,10): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+D:\work_c\230825_struct\230825_struct\exma5.c(93,10): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+D:\work_c\230825_struct\230825_struct\exma5.c(93,10): message : 누락된 variadic 인수 1이(가) 서식 문자열 '%s'에 필요합니다.
+D:\work_c\230825_struct\230825_struct\exma5.c(95,10): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+D:\work_c\230825_struct\230825_struct\exma5.c(95,10): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+D:\work_c\230825_struct\230825_struct\exma5.c(95,10): message : 누락된 variadic 인수 1이(가) 서식 문자열 '%s'에 필요합니다.
+D:\work_c\230825_struct\230825_struct\exma5.c(97,10): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+D:\work_c\230825_struct\230825_struct\exma5.c(97,10): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+D:\work_c\230825_struct\230825_struct\exma5.c(97,10): message : 누락된 variadic 인수 1이(가) 서식 문자열 '%s'에 필요합니다.
+LINK : fatal error LNK1168: D:\work_c\230825_struct\x64\Debug\230825_struct.exe을(를) 쓰기용으로 열 수 없습니다.
