@@ -1,0 +1,10 @@
+D:\work\AI11_lecture\CSharp\HeyGoodBye\SingleTonePattern\bin\Debug\SingleTonePattern.exe.config
+D:\work\AI11_lecture\CSharp\HeyGoodBye\SingleTonePattern\bin\Debug\SingleTonePattern.exe
+D:\work\AI11_lecture\CSharp\HeyGoodBye\SingleTonePattern\bin\Debug\SingleTonePattern.pdb
+D:\work\AI11_lecture\CSharp\HeyGoodBye\SingleTonePattern\obj\Debug\SingleTonePattern.csproj.AssemblyReference.cache
+D:\work\AI11_lecture\CSharp\HeyGoodBye\SingleTonePattern\obj\Debug\SingleTonePattern.Form1.resources
+D:\work\AI11_lecture\CSharp\HeyGoodBye\SingleTonePattern\obj\Debug\SingleTonePattern.Properties.Resources.resources
+D:\work\AI11_lecture\CSharp\HeyGoodBye\SingleTonePattern\obj\Debug\SingleTonePattern.csproj.GenerateResource.cache
+D:\work\AI11_lecture\CSharp\HeyGoodBye\SingleTonePattern\obj\Debug\SingleTonePattern.csproj.CoreCompileInputs.cache
+D:\work\AI11_lecture\CSharp\HeyGoodBye\SingleTonePattern\obj\Debug\SingleTonePattern.exe
+D:\work\AI11_lecture\CSharp\HeyGoodBye\SingleTonePattern\obj\Debug\SingleTonePattern.pdb
