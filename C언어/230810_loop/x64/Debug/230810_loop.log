@@ -1,0 +1,5 @@
+﻿  exam1.c
+D:\work_c\230810_loop\230810_loop\exam1.c(111,28): error C2065: 'j': 선언되지 않은 식별자입니다.
+D:\work_c\230810_loop\230810_loop\exam1.c(111,31): error C2065: 'i': 선언되지 않은 식별자입니다.
+D:\work_c\230810_loop\230810_loop\exam1.c(111,35): error C2065: 'i': 선언되지 않은 식별자입니다.
+D:\work_c\230810_loop\230810_loop\exam1.c(111,38): error C2065: 'j': 선언되지 않은 식별자입니다.
