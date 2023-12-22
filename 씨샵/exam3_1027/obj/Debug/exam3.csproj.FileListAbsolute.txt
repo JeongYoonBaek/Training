@@ -1,0 +1,7 @@
+D:\C# 파일\exam1\exam3\obj\Debug\exam3.csproj.AssemblyReference.cache
+D:\C# 파일\exam1\exam3\obj\Debug\exam3.csproj.CoreCompileInputs.cache
+D:\C# 파일\exam1\exam3\bin\Debug\exam3.exe.config
+D:\C# 파일\exam1\exam3\bin\Debug\exam3.exe
+D:\C# 파일\exam1\exam3\bin\Debug\exam3.pdb
+D:\C# 파일\exam1\exam3\obj\Debug\exam3.exe
+D:\C# 파일\exam1\exam3\obj\Debug\exam3.pdb
