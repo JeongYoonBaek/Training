@@ -1,0 +1,4 @@
+﻿  Project.c
+D:\work_c\C_Project\C_Project\Project.c(18,8): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\work_c\C_Project\C_Project\Project.c(14,14): warning C4101: 'ent' :참조되지 않은 지역 변수입니다.
+  C_Project.vcxproj -> D:\work_c\C_Project\x64\Debug\C_Project.exe
