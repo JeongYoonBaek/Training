@@ -1,0 +1,12 @@
+D:\C# 파일\HelloCSharp1031_exam2\HelloCSharp1031_exam2\bin\Debug\HelloCSharp1031_exam2.exe.config
+D:\C# 파일\HelloCSharp1031_exam2\HelloCSharp1031_exam2\bin\Debug\HelloCSharp1031_exam2.exe
+D:\C# 파일\HelloCSharp1031_exam2\HelloCSharp1031_exam2\bin\Debug\HelloCSharp1031_exam2.pdb
+D:\C# 파일\HelloCSharp1031_exam2\HelloCSharp1031_exam2\obj\Debug\HelloCSharp1031_exam2.csproj.AssemblyReference.cache
+D:\C# 파일\HelloCSharp1031_exam2\HelloCSharp1031_exam2\obj\Debug\HelloCSharp1031_exam2.Form1.resources
+D:\C# 파일\HelloCSharp1031_exam2\HelloCSharp1031_exam2\obj\Debug\HelloCSharp1031_exam2.Properties.Resources.resources
+D:\C# 파일\HelloCSharp1031_exam2\HelloCSharp1031_exam2\obj\Debug\HelloCSharp1031_exam2.csproj.GenerateResource.cache
+D:\C# 파일\HelloCSharp1031_exam2\HelloCSharp1031_exam2\obj\Debug\HelloCSharp1031_exam2.csproj.CoreCompileInputs.cache
+D:\C# 파일\HelloCSharp1031_exam2\HelloCSharp1031_exam2\obj\Debug\HelloCSharp1031_exam2.exe
+D:\C# 파일\HelloCSharp1031_exam2\HelloCSharp1031_exam2\obj\Debug\HelloCSharp1031_exam2.pdb
+D:\C# 파일\HelloCSharp1031_exam2\HelloCSharp1031_exam2\obj\Debug\HelloCSharp1031_exam2.Form2.resources
+D:\C# 파일\HelloCSharp1031_exam2\HelloCSharp1031_exam2\obj\Debug\HelloCSharp1031_exam2.Form3.resources
