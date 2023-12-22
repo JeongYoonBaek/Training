@@ -1,0 +1,13 @@
+D:\C# 파일\HeyAPI\HeyAPI\bin\Debug\HeyAPI.exe.config
+D:\C# 파일\HeyAPI\HeyAPI\bin\Debug\HeyAPI.exe
+D:\C# 파일\HeyAPI\HeyAPI\bin\Debug\HeyAPI.pdb
+D:\C# 파일\HeyAPI\HeyAPI\bin\Debug\Newtonsoft.Json.dll
+D:\C# 파일\HeyAPI\HeyAPI\bin\Debug\Newtonsoft.Json.xml
+D:\C# 파일\HeyAPI\HeyAPI\obj\Debug\HeyAPI.csproj.AssemblyReference.cache
+D:\C# 파일\HeyAPI\HeyAPI\obj\Debug\HeyAPI.Form1.resources
+D:\C# 파일\HeyAPI\HeyAPI\obj\Debug\HeyAPI.Properties.Resources.resources
+D:\C# 파일\HeyAPI\HeyAPI\obj\Debug\HeyAPI.csproj.GenerateResource.cache
+D:\C# 파일\HeyAPI\HeyAPI\obj\Debug\HeyAPI.csproj.CoreCompileInputs.cache
+D:\C# 파일\HeyAPI\HeyAPI\obj\Debug\HeyAPI.csproj.CopyComplete
+D:\C# 파일\HeyAPI\HeyAPI\obj\Debug\HeyAPI.exe
+D:\C# 파일\HeyAPI\HeyAPI\obj\Debug\HeyAPI.pdb

@@ -1,0 +1,10 @@
+D:\C# 파일\ParkingCarManager\ParkingCarManager\bin\Debug\ParkingCarManager.exe.config
+D:\C# 파일\ParkingCarManager\ParkingCarManager\bin\Debug\ParkingCarManager.exe
+D:\C# 파일\ParkingCarManager\ParkingCarManager\bin\Debug\ParkingCarManager.pdb
+D:\C# 파일\ParkingCarManager\ParkingCarManager\obj\Debug\ParkingCarManager.csproj.AssemblyReference.cache
+D:\C# 파일\ParkingCarManager\ParkingCarManager\obj\Debug\ParkingCarManager.Form1.resources
+D:\C# 파일\ParkingCarManager\ParkingCarManager\obj\Debug\ParkingCarManager.Properties.Resources.resources
+D:\C# 파일\ParkingCarManager\ParkingCarManager\obj\Debug\ParkingCarManager.csproj.GenerateResource.cache
+D:\C# 파일\ParkingCarManager\ParkingCarManager\obj\Debug\ParkingCarManager.csproj.CoreCompileInputs.cache
+D:\C# 파일\ParkingCarManager\ParkingCarManager\obj\Debug\ParkingCarManager.exe
+D:\C# 파일\ParkingCarManager\ParkingCarManager\obj\Debug\ParkingCarManager.pdb
