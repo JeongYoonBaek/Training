@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media_query</title>
+    <style>
+        p {
+            width: 150px;
+            height: 150px;
+            background-color: white;
+            border: 2px solid black;
+        }
+
+        /* 
+        "특정 조건식을 만족한다면, 아래처럼 반응하라. 라는 의미다"
+        @media screen and (조건식) {
+            선택자 {스타일 적용문}
+        } 
+        */
+        /* height 크기가 높은 순으로 먼저 작성한다. 
+        그렇지 않으면 높은 사이즈로 설정한 색상이 나타나지 않음 */
+        @media screen and (max-height : 500px){
+            p{
+                background-color : hotpink;
+            }
+        }
+
+        @media screen and (max-height:300px) {
+            p{
+                background-color: royalblue;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <p>색깔이 바뀌어요</p>
+</body>
+
+</html>
