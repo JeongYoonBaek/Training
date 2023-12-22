@@ -1,0 +1,13 @@
+D:\C# 파일\HeyLotto\HeyLotto\bin\Release\HeyLotto.exe.config
+D:\C# 파일\HeyLotto\HeyLotto\bin\Release\HeyLotto.exe
+D:\C# 파일\HeyLotto\HeyLotto\bin\Release\HeyLotto.pdb
+D:\C# 파일\HeyLotto\HeyLotto\bin\Release\Newtonsoft.Json.dll
+D:\C# 파일\HeyLotto\HeyLotto\bin\Release\Newtonsoft.Json.xml
+D:\C# 파일\HeyLotto\HeyLotto\obj\Release\HeyLotto.csproj.AssemblyReference.cache
+D:\C# 파일\HeyLotto\HeyLotto\obj\Release\HeyLotto.Form1.resources
+D:\C# 파일\HeyLotto\HeyLotto\obj\Release\HeyLotto.Properties.Resources.resources
+D:\C# 파일\HeyLotto\HeyLotto\obj\Release\HeyLotto.csproj.GenerateResource.cache
+D:\C# 파일\HeyLotto\HeyLotto\obj\Release\HeyLotto.csproj.CoreCompileInputs.cache
+D:\C# 파일\HeyLotto\HeyLotto\obj\Release\HeyLotto.csproj.CopyComplete
+D:\C# 파일\HeyLotto\HeyLotto\obj\Release\HeyLotto.exe
+D:\C# 파일\HeyLotto\HeyLotto\obj\Release\HeyLotto.pdb
