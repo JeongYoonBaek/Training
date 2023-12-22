@@ -1,0 +1,12 @@
+D:\C# 파일\BookManager\BookManager\bin\Debug\BookManager.exe.config
+D:\C# 파일\BookManager\BookManager\bin\Debug\BookManager.exe
+D:\C# 파일\BookManager\BookManager\bin\Debug\BookManager.pdb
+D:\C# 파일\BookManager\BookManager\obj\Debug\BookManager.csproj.AssemblyReference.cache
+D:\C# 파일\BookManager\BookManager\obj\Debug\BookManager.Form1.resources
+D:\C# 파일\BookManager\BookManager\obj\Debug\BookManager.Properties.Resources.resources
+D:\C# 파일\BookManager\BookManager\obj\Debug\BookManager.csproj.GenerateResource.cache
+D:\C# 파일\BookManager\BookManager\obj\Debug\BookManager.csproj.CoreCompileInputs.cache
+D:\C# 파일\BookManager\BookManager\obj\Debug\BookManager.exe
+D:\C# 파일\BookManager\BookManager\obj\Debug\BookManager.pdb
+D:\C# 파일\BookManager\BookManager\obj\Debug\BookManager.Form2.resources
+D:\C# 파일\BookManager\BookManager\obj\Debug\BookManager.Form3.resources
