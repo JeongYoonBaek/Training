@@ -1,0 +1,13 @@
+D:\C# 파일\1030exam4\1030exam4\bin\Debug\1030exam4.exe.config
+D:\C# 파일\1030exam4\1030exam4\bin\Debug\1030exam4.exe
+D:\C# 파일\1030exam4\1030exam4\bin\Debug\1030exam4.pdb
+D:\C# 파일\1030exam4\1030exam4\obj\Debug\1030exam4.csproj.AssemblyReference.cache
+D:\C# 파일\1030exam4\1030exam4\obj\Debug\_1030exam4.Form1.resources
+D:\C# 파일\1030exam4\1030exam4\obj\Debug\_1030exam4.Properties.Resources.resources
+D:\C# 파일\1030exam4\1030exam4\obj\Debug\1030exam4.csproj.GenerateResource.cache
+D:\C# 파일\1030exam4\1030exam4\obj\Debug\1030exam4.csproj.CoreCompileInputs.cache
+D:\C# 파일\1030exam4\1030exam4\obj\Debug\1030exam4.exe
+D:\C# 파일\1030exam4\1030exam4\obj\Debug\1030exam4.pdb
+D:\C# 파일\1030exam4\1030exam4\obj\Debug\_1030exam4.Form2.resources
+D:\C# 파일\1030exam4\1030exam4\obj\Debug\_1030exam4.Form3.resources
+D:\C# 파일\1030exam4\1030exam4\obj\Debug\_1030exam4.Form4.resources
