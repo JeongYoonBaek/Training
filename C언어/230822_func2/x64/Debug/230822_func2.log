@@ -1,0 +1,3 @@
+﻿  exam4.c
+D:\work_c\230822_func2\230822_func2\exam4.c(20,8): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  230822_func2.vcxproj -> D:\work_c\230822_func2\x64\Debug\230822_func2.exe
