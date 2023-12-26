@@ -1,0 +1,38 @@
+from flask import Flask, request, jsonify
+from bs4 import BeautifulSoup
+import requests
+
+class BookSearcher:
+    def __init__(self):
+        pass
+
+    def search_books(self, keyword):
+        url = f"https://www.nl.go.kr/NL/contents/search.do?srchTarget=total&pageNum=1&pageSize=10&insiteschStr=&schQuery=&mainSrchField=1&kwd={keyword}"
+        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.48496.75 Safari/537.36"}
+
+        original_html = requests.get(url, headers=headers)
+        soup = BeautifulSoup(original_html.text, "html.parser")
+
+        book = {}
+        article = []
+        mytag = {}
+        
+        try:
+            mytag = soup.select("div.cont_list.list_type > div.row")[0]
+            article = mytag.select("span.txt_left.row_txt_tit > a")[0]
+        except Exception as e:
+            print(e)
+            return book
+        
+        book['href'] = article['href']
+        book['title'] = article.get_text(strip=True)
+        author = mytag.select("span.mr.txt_grey")
+        author = author[0].get_text()
+        cover = mytag.select("div.row_img_wrap>img")[0]
+        cover = cover['src']
+        book['author'] = author
+        book['cover']=cover
+        
+        
+        return book
+
