@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduce</title>
+</head>
+<body>
+        <!-- 이름, 나이, 성별(boolean 타입) 입력받고
+        이들을 하나의 배열에 저장한다.
+        그리고 배열에 저장된 값들을 순차적으로 html에 출력한다. -->
+    <script>
+       
+        let name = prompt("이름을 입력하세요", "ex)백정윤");
+        console.log(typeof(name));
+
+        let input = prompt("나이를 입력하세요");
+        console.log(typeof(input));
+
+        let age = Number(input);
+        console.log(typeof(age));
+
+        let gender = confirm("남성이면 확인, 여성이면 취소를 눌러주세요.");
+        gender === true ? gender = ("남성") : gender = ("여성");
+
+        let introduce = [name, age, gender];
+
+        for(let i = 0 ; i< 3; i++){
+            document.write(introduce[i]+ "<br>");
+        }
+
+        document.write("이름 :", introduce[0] + "<br>");
+        document.write("나이 :", introduce[1] + "<br>");
+        document.write("성별 :", introduce[2] + "<br>");
+    </script>
+</body>
+</html>

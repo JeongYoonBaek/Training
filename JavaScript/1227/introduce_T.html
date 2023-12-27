@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduce_T</title>
+</head>
+<body>
+    <script>
+        // 1. 이름, 나이, 성별 (boolean 타입) 입력
+        let name = prompt("이름을 입력하세요.", "ex) 백정윤");
+        let input = prompt("나이를 입력하세요.", 0);    // string형
+        let age = Number(input);
+        let tf = confirm("남성이라면 확인, 여성이라면 취소를 눌러주세요.");
+        
+        let gender;
+        if(tf === true){
+            gender = "남성";
+        }
+        else{   // tf === false ("취소"를 누른 경우)
+            gender = "여성";
+        }
+        
+        // 2. 배열 선언하고, 값을 삽입
+        let introduce = [];
+        introduce.push(name);
+        introduce.push(age);
+        introduce.push(gender);
+        
+        // 3. 배열값 순차적으로 출력
+        document.write(`이름 : ${introduce[0]} <br>`);
+        document.write(`나이 : ${introduce[1]} <br>`);
+        document.write(`성별 : ${introduce[2]} <br>`);
+
+        // console.log() :: 출력을 console에서 한다 (콘솔창 출력) - 개행("\n")
+        // document.write() :: html body 출력 - 개행 ("<br>")
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <script>
+        // 배열 :: 여러 개의 값을 하나의 이름으로 저장하는 공간
+        //         js 같은 경우엔, 자료형의 제약이 없고 공간의 제약도 없음
+        //         배열 이름이랑 "배열이다" 라는 것만 명시하면 사용에 지장없음
+        
+        // "introduce라는 변수는 배열이다." 라고 선언한 것.
+        let introduce = []; 
+
+        // 임의의 위치를 지정해서 값을 넣을 수 있음
+        introduce[1] = "apple";
+        console.log(introduce[1]);
+        for(let i = 0; i<5; i++){
+            introduce[i] = 100;
+        }
+
+        // push()를 통해서 순차적으로 삽입
+        introduce.push("백정윤");
+        introduce.push(26);
+        introduce.push(true);
+
+    </script>
+</body>
+</html>
