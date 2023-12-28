@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBTI</title>
+</head>
+
+<body>
+    <!-- 사용자에게 4개의 입력을 받게끔 하고
+    사용자의 MBTI를 아래로 출력 하게끔 하라.
+
+    (ex) 
+    - 외향적(E) / "내향적(I)"
+    - "현실형(S)" / 직관형 (N)
+    - "감성적(F)" / 이성적(T)
+    - "계획형(J)" / 즉흥형(P)
+    [제출버튼]
+
+    당신의 mbti는 ISFJ입니다. -->
+    <form id="MBTITest" onsubmit="calculateMBTI(); return false;">
+        <input type="radio" id="E" name="MBTI1" value="E">
+        <label for="E">외향적(E)</label>
+        <input type="radio" id="I" name="MBTI1" value="I">
+        <label for="I">내향적(I)</label> <br> <br>
+
+        <input type="radio" id="S" name="MBTI2" value="S">
+        <label for="S">현실형(S)</label>
+        <input type="radio" id="N" name="MBTI2" value="N">
+        <label for="N">직관형(N)</label> <br><br>
+
+        <input type="radio" id="F" name="MBTI3" value="F">
+        <label for="F">감성적(F)</label>
+        <input type="radio" id="T" name="MBTI3" value="T">
+        <label for="T">이성적(T)</label> <br><br>
+
+        <input type="radio" id="J" name="MBTI4" value="J">
+        <label for="J">계획형(J)</label>
+        <input type="radio" id="P" name="MBTI4" value="P">
+        <label for="P">즉흥형(P)</label> <br><br>
+
+        <input type="submit" value="제출하기" onclick="calculateMBTI()">
+        <p id="userMBTI"> 당신의 MBTI는 입니다. </p>
+    </form>
+
+    <script>
+        /* (이때, form 태그의 제출 버튼을 눌러 입력받게끔 하고, 함수를 사용하여 
+        사용자의 mbti 연산을 수행하라.) */
+        function calculateMBTI() {
+
+            let mbti1 = document.querySelector('input[name="MBTI1"]:checked').value;
+            let mbti2 = document.querySelector('input[name="MBTI2"]:checked').value;
+            let mbti3 = document.querySelector('input[name="MBTI3"]:checked').value;
+            let mbti4 = document.querySelector('input[name="MBTI4"]:checked').value;
+
+            let userMBTI = mbti1.value + mbti2.value + mbti3.value + mbti4.value;
+            document.getElementById("result").innerText = "당신의 MBTI는 " + userMBTI + "입니다.";
+        }
+    </script>
+</body>
+
+</html>

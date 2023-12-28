@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.7.1.min.js"></script>
+    <title>Button</title>
+</head>
+
+<body>
+    <!-- 버튼 태그 2개와 본문 태그 하나를 생성한다.
+         hide 버튼을 누르면 아래 본문이 사라지면서 알림창을 띄우기
+         show 버튼을 누르면 아래 본문이 생기면서 알림창을 띄우기
+        
+         단, 숨기거나 보여줄 때 시간을 두고 자연스럽게 이루오지도록 하여라. 
+         여기까지 다 하였다면, 하나의 버튼으로 hide, show를 모두 할 수 있도록 하여라. -->
+    <form>
+        <input type="button" id="Hide" value="Hide">
+        <input type="button" id="Show" value="Show">
+        <input type="button" id="Toggle" value="Toggle"> <br> <br> <br>
+        
+        <h1 style block="display : inline-block" id="h1">본문</h1>
+    </form>
+    <script>
+        // hide 버튼을 누르면 아래 본문이 사라지면서 알림창 띄우기
+        $(document).ready(function () {
+            $("#Hide").click(function () {
+                $("#h1").fadeOut('slow');
+                alert("본문이 사라졌어요.");
+            }),
+            $("#Show").click(function () {
+                $("#h1").fadeIn(3000);
+                alert("본문이 생겼어요.");
+            }),
+            $("#Toggle").click(function () {
+                $("#h1").fadeToggle(3000);
+                alert("본문이 안보이거나 천천히 생겨요.");
+            })
+
+        })
+    </script>
+</body>
+
+</html>

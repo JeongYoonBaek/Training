@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.7.1.min.js"></script>
+    <title>Toggle</title>
+</head>
+
+<body>
+    <!-- 버튼 태그 2개, 본문 태그 하나 생성 -->
+    <button id="hide">숨기기</button>
+    <button id="show">나타내기</button> 
+    <button id ="toggle">토글토글</button> <br>
+    <button id ="stop">잠깐 멈춤</button>
+    <button id ="play">다시 재생</button>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptates beatae voluptatibus est voluptas,
+        cum vero nihil, incidunt omnis unde consequuntur commodi. Modi placeat eum ipsum voluptates ut deleniti magnam.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aliquam, fuga quod reiciendis repellat mollitia
+        beatae distinctio eaque nostrum, corrupti doloribus veniam officiis ratione nobis alias ipsa iure. Earum,
+        ratione!
+    </p>
+
+    <script>
+        // 숨기는 버튼 기능 생성
+        $(document).ready(function(){
+            $("#hide").click(function(){    // #hide 요소를 클릭하면 
+                $("p").Hide(2000);
+                alert("본문이 사라졌어용");
+            })
+        })
+
+        // 나타내는 버튼 기능 생성
+        $(document).ready(function(){
+            $("#show").click(function(){    // #show 요소를 클릭하면
+                $("p").Show(3000);
+                alert("본문이 생겼어용");
+            })
+        })
+
+        // 하나의 버튼으로 hide 및 show 기능 생성
+        $(document).ready(function(){
+            $("#toggle").click(function(){
+                $("p").fadeToggle(2500);
+                alert("본문이 사라지거나 다시 생겨용");
+            })
+        })
+
+        // 일시 정지하는 버튼 
+        $(document).ready(function(){
+            $("#stop").click(function(){
+                $("p").stop(alert("일시정지합니당."));        
+            })
+        })
+       // 다시 재생하는 버튼
+       $(document).ready(function(){
+        $("#play").click(function(){
+            $()
+        })
+       })
+    </script>
+</body>
+
+</html>

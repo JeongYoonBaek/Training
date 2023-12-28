@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.7.1.min.js"></script>
+    <title>Fade</title>
+</head>
+
+<body>
+    <p id="title">제목입니다. 한번 클릭해보세요.</p>
+    <button id = "stop">일시정지합니당</button>
+    <p id="para">
+        아래는 본문 입니다.<br><br>
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas earum qui ad nam quod, fugit ab vel quasi maiores
+        aspernatur fuga illo vero incidunt amet delectus nostrum officia, perspiciatis obcaecati!
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic in atque, vitae aut a inventore molestiae
+        doloremque natus, animi, nihil nemo cumque nulla quos. Qui distinctio repellendus pariatur voluptatem minus.
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente laboriosam neque, ipsam fugiat deleniti
+        eligendi incidunt vitae deserunt aut porro maiores quam, enim cum exercitationem quos distinctio! Sapiente,
+        similique tempora.
+    </p>
+
+    <script>
+        $(document).ready(function () {
+            $("#title").css("background-color", "orange");
+            $("#title").css("color", "white");
+            $("#para").css("background-color", "pink");
+            $("#para").css("display", "none"); // 아예 실행 했을 때 안보이게끔 함
+        })
+
+        // fadeout :: 자연스럽게 사라지는 모션
+        // $(document).ready(function () {
+        //     $("#title").click(function () {
+        //         $("#para").fadeOut(2000);
+        //     })
+        // })
+
+        // fadeIn :: 자연스럽게 나타나는 모션
+        // $(document).ready(function () {
+        //     $("#title").click(function () {
+        //         $("#para").fadeIn(2000);
+        //     })
+        // })
+
+        // fadetoggle :: 자연스럽게 숨기고 나타나게 하는 모션
+        // slideToggle :: 백그라운드 배경과 글자와 함께 서서히 미끄러지듯이 출력이 됨
+        $(document).ready(function () {
+            $("#title").click(function () {
+                $("#para").slideToggle(2000);
+            })
+        })
+        $(document).ready(function () {
+            $("#stop").click(function () {
+                $("#para").stop();
+            })
+        })
+    </script>
+</body>
+
+</html>

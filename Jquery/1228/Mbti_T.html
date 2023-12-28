@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBTI_T</title>
+</head>
+<!-- 사용자에게 4개의 입력을 받게끔 하고
+    사용자의 MBTI를 아래로 출력 하게끔 하라.
+
+    (ex) 
+    - 외향적(E) / "내향적(I)"
+    - "현실형(S)" / 직관형 (N)
+    - "감성적(F)" / 이성적(T)
+    - "계획형(J)" / 즉흥형(P)
+    [제출버튼] -->
+
+<body>
+    <form>
+        <input type="radio" name="EI" value="E" id="E">
+        <label for="E">외향적(E)</label>
+        <input type="radio" name="EI" value="I" id="I">
+        <label for="I">내향적(I)</label>
+        <br>
+        <br>
+
+        <input type="radio" name="SN" value="S" id="S">
+        <label for="S">현실형(S)</label>
+        <input type="radio" name="SN" value="N" id="N">
+        <label for="N">직관형(N)</label>
+        <br>
+        <br>
+
+        <input type="radio" name="FT" value="F" id="F">
+        <label for="F">감성적(F)</label>
+        <input type="radio" name="FT" value="T" id="T">
+        <label for="T">이성적(T)</label>
+        <br>
+        <br>
+
+        <input type="radio" name="JP" value="J" id="J">
+        <label for="J">계획형(J)</label>
+        <input type="radio" name="JP" value="P" id="P">
+        <label for="P">즉흥형(P)</label>
+        <br>
+        <br>
+
+        <input type="submit" value="제출하기">
+    </form>
+
+    <h3 id="result"></h3> <!-- 결과값 innerHTML로 전송할 예정 -->
+    <script>
+        // 함수 :: 특정 기능을 수행하기 위한 명령문들의 집합
+        // function 함수명(매개변수명, ...){
+        //      명령문들;
+        // }
+
+        let one = document.getElementsByName("EI");
+        let two = document.getElementsByName("SN");
+        let three = document.getElementsByName("FT");
+        let four = document.getElementsByName("JP");
+
+        let mbti = getMbti(one, two, three, four);
+        function getMbti(o, t, th, f) {
+            return o + t + th + f;
+        }
+
+        let result = document.getElementById("result");
+        result.innerHTML(`당신의 MBTI는 ${mbti} 입니다.`);
+    </script>
+</body>
+
+</html>
