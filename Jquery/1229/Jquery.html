@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.7.1.min.js"></script>
+    <title>Jquery</title>
+</head>
+
+<body>
+    <button>눌러보세요</button>
+    <p id="para1">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium neque nostrum reiciendis totam libero
+        earum deleniti sequi quam iure mollitia, eum minus nemo ducimus voluptatem nobis sit iste esse dolorem.
+    </p>
+    <p id="para2" style="display : none">
+        버튼을 눌렀습니다.
+    </p>
+    <br>
+    <input type="text">
+    <input type="text">
+    <div style="width : 100px; height : 100px; background-color : royalblue; position : absolute">
+    </div>
+    <script>
+        // JQuery는 JavaScript의 코드를 간결하고 쉽게 작성하기 위해 있음
+        //      (지원되는 플러그인, 프로그램도 많은 편)
+
+        // $(선택자).이벤트함수()
+        // 선택자는 css에서 사용하던 선택자 문법
+        // 태그 / 아이디 / 클래스 등의 선택자는 css에서 쓰던거 그대로 사용하면 됨
+        $(document).ready(function () {
+            alert("Jq 적용되었습니다.");
+        })
+
+        // hide(), show()   
+        // $(document).ready(function () {   // "문서 파일을 모두 불러온 뒤" 
+        //     $("button").click(function () {
+        //         $("#para1").hide(2000);     // 본문(id=para1인 요소) 숨김
+        //         $("#para2").show(2000);     // 본문(id=para2인 요소) 표현함
+        //     })
+        // })
+
+        // fade(in / out), slide(up, down), slideToggle
+        $(document).ready(function () {
+            $("button").click(function () {
+                // $("#para1").slideUp(2000);
+                // $("#para2").slideDown(2000);
+                $("#para1").slideToggle();
+            })
+        })
+
+        // animate() :: 애니메이션 적용
+        $(document).ready(function () {
+            $("div").click(function () {
+                $("div").animate({ width: "250px" });
+                $("div").animate({ left: "250px" });
+            })
+        })
+
+        // hover 이벤트 
+        $(document).ready(function () {
+            $("input").hover(function () {    // 입력칸에 마우스를 갖다댔을 때 액션
+                console.log("여기는 입력칸입니다.");
+            },
+                function () {     // 입력칸으로부터 마우스가 떨어질 때 수행할 행동
+                    console.log("입력칸을 떠났습니다...");
+                }
+            )
+        })
+    </script>
+</body>
+
+</html>
