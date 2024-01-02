@@ -38,3 +38,74 @@ slideToggle :: 백그라운드 배경과 글자와 함께 서서히 미끄러지
 애니메이션 태그
 $("#nemo").animate(
  { width: "300px", height: "300px" }, 1000);
+
+
+html 요소 이벤트 속성 :: on + "js에서 썼던 이벤트명"
+js로 이벤트 적용하는 방법
+1. 요소에 직접적으로 명령문이나 함수 적용
+2. 이벤트 리스너 사용
+1) 이벤트를 적용할 요소 당겨오기
+        let bt1 = document.getElementById("bt");
+
+2) 당겨온 요소에 이벤트 리스너 적용 -> addEventListener 사용
+        bt1.addEventListener("click", hide);
+
+3) 이벤트 처리에 사용할 함수 정의
+        function hide(){
+            let para = document.getElementById("para");
+            para.style.display = "none";
+            alert("h1 본문이 숨겨졌습니다.");
+        }
+
+
+콜백 함수 :: 전환 / 애니메이션 실행하고 난 뒤에 후처리하는데 사용
+연쇄 (chainig) :: 이벤트 처리
+
+
+DOM : Document의 준말, 브라우저 상의 페이지 (html, css)
+DOM 조작 :: css("속성명", "속성값");는 이미 배움
+
+get, set :: 반환하다 / 설정하다 -> text(), html(), val(), attr()
+
+1. get
+        $(function () {
+            $("#showText").click(function () {
+                console.log(`선택된 요소의 텍스트는 ` + $("#test").text());
+                console.log(`선택된 요소의 html 코드 : ` + $("#test").html());
+            })
+
+
+            $("#show_input").click(function () {
+                alert("입력값 : " + $("#text_input").val());
+                alert("입력 type : " + $("#text_input").attr("type"));      // type :: text
+            })
+        })
+
+2. Set :: "설정하다"
+
+
+요소 추가 :: append(), prepend(), after(), before()
+append() :: 지정된 태그 안에, 가장 뒤에서부터 요소 추가 ("권장")
+prepend() :: 지정된 태그 안에, 가장 앞에서부터 요소 추가
+after() :: 지정된 태그 뒤로, 요소 추가
+ before() :: 지정된 태그 앞으로 요소 추가
+
+
+<li id = "first">첫번째 li입니다.</li>
+        <li>두번째 li입니다.</li>
+   복사한 첫번째 li를 이 뒤로 계속 붙여넣기 됨 
+
+요소 복제 :: clone()이라는 메소드 1개밖에 없음
+
+
+요소 삭제 :: remove(), detach(), empty()
+remove() :: 특정 조건에 적합한 요소 삭제
+detach() :: 특정 조건에 적합한 요소 삭제
+(삭제를 수행한 뒤에, 삭제된 html 코드를 반환함)
+empty() :: 선택된 요소의 자식 요소를 삭제
+
+요소 대체 :: replaceAll(), replaceWith()
+
+$("#with").click(function(){
+                $("#replace").replaceWith(".p");
+                // 선택된 p 태그들 -> #replace로 선택된 p 태그 하나로 대체

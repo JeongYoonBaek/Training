@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.7.1.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <button> slide 효과 적용 </button>
+    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis dolorem dolorum assumenda, enim maxime, quo
+        nesciunt incidunt nemo ducimus nihil hic distinctio atque tempore iste aliquam architecto tenetur tempora nam.
+    </p>
+    <script>
+        // 버튼을 클릭하면, 이미 DOM에 나타나있는 본문에 slide 효과를 주어
+        // 본문을 사라지게 했다가 드러나게 하라. 경고창도 띄워라.
+        // 단, 본문을 불러오는 선택자를 한번만 사용하라.
+
+        // 콜백 함수 :: 전환 / 애니메이션 실행하고 난 뒤에 후처리하는데 사용
+        // 연쇄 (chainig) :: 이벤트 처리 연결
+        $(function(){
+            $("button").click(function(){
+                $("p").slideup(1000).slidedown(1000, () => {
+                    alert("버튼을 눌렀습니다.");
+                })
+            })
+        })
+        
+    </script>
+</body>
+
+</html>
