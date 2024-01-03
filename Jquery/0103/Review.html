@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.7.1.min.js"></script>
+    <title>REVIEW</title>
+</head>
+<body>
+    <!-- DOM :: document의 준말, html 통해 만들어진 페이지 -->
+    <div>여기를 누르면 값이 변경 됩니다.</div>
+    <p>수요일 아침입니다. <span>오늘도 파이팅 해봅시다!!!</span></p>
+    <input type="text" /> <button id = "check">입력값 확인</button>
+    <hr>
+    <button id = "add">요소 추가</button> <button id = "delete">요소 삭제</button>
+    <ol>
+        
+    </ol>
+
+    <script>
+        // get, set :: text(), html(), val(), attr()
+
+        $(function () {
+            $("div").dblclick(function () {
+                $("div").text("변경이 완료되었습니다.");  // 설정하고자 하는 값을 text안에 집어넣음
+            })
+        })
+
+        $(function () {
+            $("p").click(function () {
+                alert($("p").text());   // text :: 요소에 있는 text만 반환
+
+            })
+            $("span").click(function () {
+                alert($("p").html());   // html :: 요소의 html 코드 반환, p 태그의 html 코드 수정
+                $("p").html("<span>수요일 아침입니다. </span><span>오늘도 파이팅 해봅시다!!!</span>"); 
+                // 설정하고자 하는 값을 html에 html코드를 집어 넣음  
+            })
+        })
+
+        $(function () {
+            $("#check").click(function () {
+                alert("현재 입력값: " + $("input").val());
+                // 실제 사용자가 입력한 값 반환
+                // html 코드가 길어지다보면 중복되는 것이 많아져서
+                // id나 클래스 값을 지정해서 사용 하는 것을 권장함 
+                $("input").val("비가 옵니당");
+                $("input").attr("style", "background-color : royalblue");   // get, set
+            })
+            $("input").focus(function () {    // 입력칸에 포커싱을 맞추면
+                alert("입력 타입 : " + $("input").attr("type"));    // attr에 속성값을 넣어야 하나의 값만 출력됨
+            })
+        })
+
+        // 요소 조작 :: "추가 / 삭제" / 복제 / 대체
+        $(function(){
+            $("#add").click(function(){
+                $("ol").append("<li> 요소가 추가되었습니다.</li>"); 
+                // append :: html의 코드를 추가 해줌. 반드시 html 양식대로 작성할 것
+                $("ol").after("<li> after로 추가함</li>");
+            })
+            $("#delete").click(function(){
+                $("ol").remove();   // 자기 자신을 통째로 삭제
+                $("ol").empty();    // 자신의 자식 요소들을 삭제한다.
+            })
+        })
+
+    </script>
+</body>
+
+</html>
