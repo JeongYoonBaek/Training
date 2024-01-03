@@ -1,0 +1,84 @@
+ajax 통신 :: 비동기식 "통신" 방식
+XMLHttpRequest() 객체 통해서 통신
+
+1. XMLHttpRequest 객체 생성 (객체명 :: xhttp)
+  const xhttp = new XMLHttpRequest();
+
+2. "서버가 준비되면" 수행할 명령문 작성 -> 함수 작성
+xhttp.onload = function () {
+            document.getElementById("text_area").innerHTML=this.responseText;
+            // ajax 통신을 통해 파일(txt)을 요청하면, 응답이 도착할 것
+            // 응답받는 파일 = 요청한 파일 
+            // -> 응답받은 파일의 내용 = this.responseText 
+        }
+
+ // 3. 실질적으로 통신 요청하고 응답받기
+        xhttp.open("GET", "text.txt");    // 서버에 요청할 내용 구성
+            // "GET" or "POST" :: POST 형식이 GET보다 강력하다.
+        xhttp.send();    // 서버에 요청 전송
+
+        // 실질적인 실행 순서는 1 -> 3 -> 2 
+
+
+JSON :: (특별한 양식은 아니고) 가독성이 좋고 가벼운 파일 양식 중 하나
+XMLHttpRequest 객체 사용, 통신을 시도
+
+
+1. xhttp 객체 생성
+ let xhttp = new XMLHttpRequest();
+
+
+2. xhttp 객체의 상태가 변경되었을 때, 실행될 함수 정의
+xhttp 객체 상태 변경 = 서버와 연결이 시도하였을 때
+xhttp.onreadystatechange = function () {
+
+
+// 서버와 통신이 성공한 경우 (외우는 것을 권장)
+  if (this.readyState === 4 && this.status === 200) {
+                let para = document.querySelector("#test");
+                para.innerHTML = this.responseText;
+                para.textContent = JSON.parse(this.responseText)["Name"];
+
+textContent :: 텍스트만 적용
+JSON.parse :: JSON 양식대로 파싱 진행
+파싱이 완료되어 하나의 파일을 단어로 끊어서 볼 수 있을 때
+"Name"이 인덱스인 값만 따와서 브라우저에 표현
+
+else{   // 서버와 통신이 실패한 경우
+                console.log("Error!!!");
+
+3. open(), send()
+        xhttp.open("GET", "https://starfall-yuna.github.io/super-duper-computing-machine/json.json");   // 요청을 보낼 내용 준비
+        xhttp.send();   // 실질적으로 서버에 요청을 보냄
+
+fetch API를 사용하여, ajax 통신 시도
+fetch API : fetch API는 Promise 기반으로 구성되어 있어 비동기 처리 프로그래밍 방식에
+잘 맞는 형태. 
+
+textContent :: text로만 취급을 해서 요소값에 삽입
+innderHTML :: html 코드로 취급하고 요소에 적용
+
+
+Js Ajax 문법도, Js Ajax 문법보다 간결하고 작성하기 쉽다
+요청 전송하는 방식 :: GET, POST
+load(), get(), post()
+
+
+$.ajax({    // jq 상에서 ajax 통신하는데 사용되는 메소드
+       url:"https://starfall-yuna.github.io/super-duper-computing-machine/json.json", 
+       method: "GET",      // 요청 전송하는 방식
+       dataType: "json",   // dataType이 필요한 이유 : 여기에 맞게 파싱하려고
+
+
+통신이 성공했을 때 수행 할 명령문 명시
+            success : function(data){   // data :: 요청한 파일을 파싱할 결과값
+                // p 태그에 json 파일 중 일부를 출력하게끔 할 예정 
+                let para = $("#test");
+                para.text(data["Name"]);
+            },
+
+통신이 실패 했을 때 수행할 명령문 명시
+            error : function(jqXHR, textStatus, errorThrow){
+                cosole.log("error!!!");
+            }
+        })    
