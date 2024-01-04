@@ -1,0 +1,8 @@
+JSP 설치할 프로그램 : Eclipse installer, Apache Tomcat 9.0
+
+servers 탭에 톰캣 서버 더블클릭 -> Server Options -> publish module 체크 -> ports -> http/1.1
+포트넘버 8080을 8181로 설정 -> 오류가 생기면 실행중인 톰캣 정지할 것
+
+파일 생성 후 charset, pageEncoding, meta charset을 UTF-8로 바꿀 것
+
+action :: 어디 파일로 이동할 지 알려주는 것
