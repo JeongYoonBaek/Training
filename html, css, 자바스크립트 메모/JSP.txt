@@ -6,3 +6,32 @@ servers 탭에 톰캣 서버 더블클릭 -> Server Options -> publish module �
 파일 생성 후 charset, pageEncoding, meta charset을 UTF-8로 바꿀 것
 
 action :: 어디 파일로 이동할 지 알려주는 것
+
+File -> General -> Import -> Existing Projects 클릭하면 저장한 JSP 프로젝트 폴더들이 나오고 원하는 
+폴더 선택하고 불러오기 가능
+
+servlet 파일 저장 경로
+Java Resources -> src/maim/java -> -> com.javalex.ex -> servlet
+
+jsp :: View, "html 코드" 안에 자바 코드 작성 가능
+서블릿 :: Controller, 대부분의 연산 및 처리를 진행
+
+@WebServlet(name = "Hello", urlPatterns = { "/Hello" }) 
+// 이 서블릿에 접근하기 위해서는, com.javalex.ex/HelloServlet.java
+// 경로를 간결하게 하기 위해서, url 주소 일부(뒷부분)를 치환
+// url 매핑 하는게 좋음
+
+
+protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	// TODO Auto-generated method stub
+	// response.getWriter().append("Served at: ").append(request.getContextPath());
+	response.setCharacterEncoding("UTF-8");
+	// 여기에선, 브라우저 상에서 나타나게끔 설정 -> append()
+	response.setContentType("text/html; charset = UTF-8");
+		
+	String name = request.getParameter("name");
+	response.getWriter().append("<h3>"+ name + "님 환영합니다.</h3>");
+		
+	System.out.println("GET 메소드 실행하였습니다.");	// 이게 일종의 로그임.
+	// 에러 내용이 생기면 아래 console 내용을 확인하여 어디에 에러가 생겼는지 파악하면 좋음 
+	}
