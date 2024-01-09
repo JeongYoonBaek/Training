@@ -5,6 +5,17 @@ servers 탭에 톰캣 서버 더블클릭 -> Server Options -> publish module �
 
 파일 생성 후 charset, pageEncoding, meta charset을 UTF-8로 바꿀 것
 
+<%-- jsp 주석 :: 브라우저 페이지 상에서 드러나지 않음 --%>
+<!-- html 주석 :: 브라우저 페이지 상에서 드러남 -->
+
+<%@ %> :: 지시어 태그 
+<%@ page %> :: jsp 파일의 전체적인 속성 정의
+<%@ include file="파일명" %> :: 외부 파일을 특정 위치에 포함
+
+<% %> :: 스크립트릿 태그 (자바의 대부분 문법 작성O)
+<%= %> :: 표현 태그 (자바로 선언된 변수/메소드값 반환
+<%! %> :: 선언 태그 (변수 및 메소드 선언, 전역 변수)
+
 action :: 어디 파일로 이동할 지 알려주는 것
 
 File -> General -> Import -> Existing Projects 클릭하면 저장한 JSP 프로젝트 폴더들이 나오고 원하는 
@@ -35,3 +46,36 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response) t
 	System.out.println("GET 메소드 실행하였습니다.");	// 이게 일종의 로그임.
 	// 에러 내용이 생기면 아래 console 내용을 확인하여 어디에 에러가 생겼는지 파악하면 좋음 
 	}
+
+
+setProperty:
+setProperty 메서드는 JavaBeans의 속성(property) 값을 설정할 때 사용됩니다.
+JSP 페이지에서 이 메서드를 사용하여 JavaBeans의 속성에 값을 할당할 수 있습니다.
+
+getProperty:
+getProperty 메서드는 JavaBeans의 속성 값을 얻을 때 사용됩니다.
+JSP 페이지에서 이 메서드를 사용하여 JavaBeans의 속성 값을 읽을 수 있습니다.
+
+Enumeration은 Java에서 컬렉션을 순회할 때 사용되는 인터페이스입니다. 
+Java의 Enumeration은 Java Collections Framework의 일부로, Java 1.0부터 도입되었으며, 
+현재는 Iterator 인터페이스로 대체되는 추세입니다. 그럼에도 불구하고, 
+여전히 일부 레거시 코드 및 API에서 사용될 수 있습니다.
+
+boolean hasMoreElements():
+
+컬렉션에서 더 이상 열거할 요소가 있는지 확인합니다.
+요소가 있으면 true를 반환하고, 끝에 도달했으면 false를 반환합니다.
+
+Object nextElement():
+
+열거된 컬렉션에서 다음 요소를 반환합니다.
+만약 더 이상 요소가 없으면 NoSuchElementException이 발생할 수 있습니다.
+Enumeration은 주로 Vector나 Hashtable 같은 클래스의 요소를 반복하기 위해 사용됩니다
+
+hasMoreElements()는 Java의 Enumeration 인터페이스에 정의된 메서드 중 하나입니다. 
+이 메서드는 주어진 열거형(Enumeration) 객체에서 더 이상 열거할 요소가 있는지 확인하는 데 
+사용됩니다.
+
+만약 열거형 객체에서 더 이상 열거할 요소가 있다면 true를 반환합니다.
+열거형 객체에서 더 이상 열거할 요소가 없다면 false를 반환합니다.
+
