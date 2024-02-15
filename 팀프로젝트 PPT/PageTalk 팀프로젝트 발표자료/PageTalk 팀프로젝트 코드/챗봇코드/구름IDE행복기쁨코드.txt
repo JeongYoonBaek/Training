@@ -1,0 +1,37 @@
+import json  # json 라이브러리 추가
+import urllib.request  # url라이브러리요청
+import sys
+import random
+
+class HappyRandomAPI:
+    def __init__(self):
+        return None
+    def ranRandomHappy(self):
+    # happyUrlList에 API request URL을 넣는다
+        base_url = 'https://www.aladin.co.kr/ttb/api/ItemList.aspx?ttbkey=ttbbjy83741424002&QueryType=Bestseller&MaxResults=3&start=1&SearchTarget=Book&output=JS&Version=20131101&CategoryId='
+
+    # 다른 부분인 categoryID만 다르기때문에 따로 리스트로 만들어 저장해준다
+        categoryIds = ['103712', '103721', '53515', '53536', '8546']
+
+    # 그후 한 리스트에 넣어준다
+        happyUrlList = [base_url + category_id for category_id in categoryIds]
+
+    # 랜덤중 하나 뽑기
+        randomHappyUrl =random.choice(happyUrlList)
+
+    # response변수에 요쳥한 URL열고 변수에 대입
+        response = urllib.request.urlopen(randomHappyUrl)
+
+    # 읽을때 UTF8로 디코딩하는이유 한글이 깨질 수있음
+        response = response.read().decode('utf8')
+
+    # response 데이터를 json 형태로 바꿈
+        data = json.loads(response)
+
+        happyres = data['item']
+    
+        return happyres
+
+
+
+

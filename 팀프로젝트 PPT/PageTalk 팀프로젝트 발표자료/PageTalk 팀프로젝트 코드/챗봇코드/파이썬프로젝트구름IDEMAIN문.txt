@@ -1,0 +1,227 @@
+import requests, json #python에 필요한 (Scanner)과 비슷한 개념
+from flask import Flask,request,jsonify,abort #python 전용 프레임워크
+import sys
+import urllib.request
+from bs4 import BeautifulSoup
+from HappyRandomAPI import *
+from GloomyRandomAPI import *
+from AngryRandomAPI import *
+from SearchBook import *
+
+
+application = Flask(__name__)
+
+num =[0,1,2,3,4,5,6,7,8,9]
+i = random.choice(num)
+
+# 기쁨/행복 블록
+@application.route("/happy_joy", methods=["POST"])
+def happy_joy():
+    a = HappyRandomAPI()
+    happydata = a.ranRandomHappy()
+    res = {
+        "version": "2.0",
+        "template": {
+            "outputs": [
+                {
+                    "listCard": {
+                        "header": {
+                            "title": "행복/기쁨에 따른 책 추천."
+                        },
+                        "items": [
+                            {
+                                "title": happydata[i]['title'], #happydata['item']['title']
+                                "description": happydata[i]['author'], # happydata['item']['author']
+                                "imageUrl": happydata[i]['cover'], #happydata['item']['cover']
+                                "link": {
+                                    "web": happydata[i]['link'] #happydata['item']['link']
+                                }
+                            },
+                            {
+                                "title": happydata[i+1]['title'], #happydata['item']['title']
+                                "description": happydata[i+1]['author'], # happydata['item']['author']
+                                "imageUrl": happydata[i+1]['cover'], #happydata['item']['cover']
+                                "link": {
+                                    "web": happydata[i+1]['link'] #happydata['item']['link']
+                                }
+                            },
+                            {
+                                "title": happydata[i+2]['title'], #happydata['item']['title']
+                                "description": happydata[i+2]['author'], # happydata['item']['author']
+                                "imageUrl": happydata[i+2]['cover'], #happydata['item']['cover']
+                                "link": {
+                                    "web": happydata[i+2]['link'] #happydata['item']['link']
+                                }
+                            }
+                        ],
+                        "buttons": [
+                            {
+                                "label": "알라딘 홈으로 가기",
+                                "action": "webLink",
+                                "webLinkUrl" : "https://www.aladin.co.kr/home/welcome.aspx"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+    return jsonify(res)
+
+# 기쁨/행복 블록
+@application.route("/gloomy_sad", methods=["POST"])
+def gloomy_sad():
+    b = GloomyRandomAPI()
+    gloomydata = b.ranRandomGlommy()
+    res = {
+        "version": "2.0",
+        "template": {
+            "outputs": [
+                {
+                    "listCard": {
+                        "header": {
+                            "title": "슬픔/우울에 따른 책 추천."
+                        },
+                        "items": [
+                            {
+                                "title": gloomydata[i]['title'], 
+                                "description": gloomydata[i]['author'], 
+                                "imageUrl": gloomydata[i]['cover'], 
+                                "link": {
+                                    "web": gloomydata[i]['link'] 
+                                }
+                            },
+                            {
+                                "title": gloomydata[i+1]['title'], 
+                                "description": gloomydata[i+1]['author'], 
+                                "imageUrl": gloomydata[i+1]['cover'], 
+                                "link": {
+                                    "web": gloomydata[i+1]['link'] 
+                                }
+                            },
+                             {
+                                "title": gloomydata[i+2]['title'], 
+                                "description": gloomydata[i+2]['author'], 
+                                "imageUrl": gloomydata[i+2]['cover'], 
+                                "link": {
+                                    "web": gloomydata[i+2]['link'] 
+                                }
+                            }
+                        ],
+                        "buttons": [
+                            {
+                                "label": "알라딘 홈으로 가기",
+                                "action": "webLink",
+                                "webLinkUrl" : "https://www.aladin.co.kr/home/welcome.aspx"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+    return jsonify(res)
+
+# 분노/불안 블록
+@application.route("/angry_anxiety", methods=["POST"])
+def angry_anxiety():
+    c = AngryRandomAPI()
+    angrydata = c.ranRandomAngry()
+    res = {
+        "version": "2.0",
+        "template": {
+            "outputs": [
+                {
+                    "listCard": {
+                        "header": {
+                            "title": "분노/불안에 따른 책 추천."
+                        },
+                        "items": [
+                            {
+                                "title": angrydata[i]['title'], 
+                                "description": angrydata[i]['author'], 
+                                "imageUrl": angrydata[i]['cover'], 
+                                "link": {
+                                    "web": angrydata[i]['link'] 
+                                }
+                            },
+                            {
+                                "title": angrydata[i+1]['title'], 
+                                "description": angrydata[i+1]['author'], 
+                                "imageUrl": angrydata[i+1]['cover'], 
+                                "link": {
+                                    "web": angrydata[i+1]['link'] 
+                                }
+                            },
+                            {
+                                "title": angrydata[i+2]['title'], 
+                                "description": angrydata[i+2]['author'], 
+                                "imageUrl": angrydata[i+2]['cover'], 
+                                "link": {
+                                    "web": angrydata[i+2]['link'] 
+                                }
+                            }
+                        ],
+                        "buttons": [
+                            {
+                                "label": "알라딘 홈으로 가기",
+                                "action": "webLink",
+                                "webLinkUrl" : "https://www.aladin.co.kr/home/welcome.aspx"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+    return jsonify(res)
+
+
+# 크롤링해서 국립중앙도서관 자료검색
+@application.route('/search', methods=['POST'])
+def chatbot_search_books():
+
+    data = request.get_json()
+    user_input = data['userRequest']['utterance']
+
+    # 국립중앙도서관 도서검색
+    d = BookSearcher()
+    searchBookData = d.search_books(user_input)
+    if not searchBookData:
+        # 검색 결과가 없을 경우 응답
+        res = {
+            "version": "2.0",
+            "template": {
+                "outputs": [
+                    {
+                        "simpleText": {
+                            "text": "검색 결과가 없습니다."
+                        }
+                    }
+                ]
+            }
+        }
+    else:
+        # 기본 카드로 변경
+        book = searchBookData
+        
+        res = {
+            "version": "2.0",
+            "template": {
+                "outputs": [
+                    {
+                        "basicCard": {
+                            "title": book["title"],
+                            "description": book["author"],
+                            "thumbnail": {
+                                "imageUrl": book["cover"],
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    return jsonify(res)
+
+if __name__ == "__main__":
+    application.run(host='0.0.0.0', port=80)
