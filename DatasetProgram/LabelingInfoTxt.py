@@ -1,3 +1,4 @@
+# 라벨링 이미지들을 불러와서 라벨링 정보들이 담긴 TXT 추출하는 코드
 import os
 import pandas as pd
 import json
